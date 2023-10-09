@@ -1,5 +1,18 @@
-body {
+/* body {
   overflow-x: hidden;
+} */
+
+.navbar-nav .nav-link {
+  font-weight: 600;
+  color: #97bcf9;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.navbar-nav .nav-link.active {
+  color: white;
 }
 
 .jumbotron {
@@ -13,4 +26,12 @@ body {
 
 section {
   scroll-margin-top: 5rem;
+}
+
+.gallery-img {
+  width: 100%;
+}
+
+#gallery .row > * {
+  padding: 0;
 }
