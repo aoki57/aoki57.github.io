@@ -92,8 +92,8 @@
             <h2>Projects</h2>
           </div>
         </div>
-        <div class="row justify-content-center">
-          <div class="col-md-4 mb-3" data-aos="flip-left" data-aos-duration="500">
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-6 col-lg-4 mb-3" data-aos="flip-left" data-aos-duration="500">
             <div class="card">
               <img src="img/project/project1.jpg" class="card-img-top" alt="Project 1" />
               <div class="card-body">
@@ -101,7 +101,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
+          <div class="col-md-6 col-lg-4 mb-3" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
             <div class="card">
               <img src="img/project/project2.jpg" class="card-img-top" alt="Project 2" />
               <div class="card-body">
@@ -109,7 +109,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
+          <div class="col-md-6 col-lg-4 mb-3" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
             <div class="card">
               <img src="img/project/project3.jpg" class="card-img-top" alt="Project 3" />
               <div class="card-body">
@@ -117,7 +117,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
+          <div class="col-md-6 col-lg-4 mb-3" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
             <div class="card">
               <img src="img/project/project4.jpg" class="card-img-top" alt="Project 4" />
               <div class="card-body">
@@ -125,7 +125,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3" data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
+          <div class="col-md-6 col-lg-4 mb-3" data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
             <div class="card">
               <img src="img/project/project5.jpg" class="card-img-top" alt="Project 5" />
               <div class="card-body">
@@ -135,6 +135,42 @@
           </div>
         </div>
       </div>
+
+      <!-- Keyboards -->
+      <section id="keyboards">
+        <div class="container">
+          <div class="row text-center mb-3">
+            <div class="col">
+              <h2>My Keyboards</h2>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="keyboard-box">
+                <h4 class="keyboard-name">Keychron K2</h4>
+                <img src="img/keyboard/3.png" alt="Keyboard k3" class="keyboard-img" />
+                <a href="#" class="btn btn-light keyboard-detail-button">Show Details</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="keyboard-box">
+                <h4 class="keyboard-name">Womier RGB</h4>
+                <img src="img/keyboard/1.png" alt="Womier RGB" class="keyboard-img" />
+                <a href="#" class="btn btn-light keyboard-detail-button">Show Details</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="keyboard-box">
+                <h4 class="keyboard-name">Red Dragon</h4>
+                <img src="img/keyboard/2.png" alt="Red Dragon" class="keyboard-img" />
+                <a href="#" class="btn btn-light keyboard-detail-button">Show Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Akhir Keyboards -->
+
       <img src="img/wave/wave3.svg" alt="" />
       <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
@@ -218,7 +254,7 @@
             <h2>Contact</h2>
           </div>
         </div>
-        <div class="row justify-content-center ms-5 me-5">
+        <div class="row justify-content-center">
           <div class="col-md-6">
             <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
               <strong>Terimakasih!</strong> Pesan anda sudah diterima.
@@ -266,7 +302,7 @@
     <!-- Akhir Footer -->
 
     <script src="bootsrap/js/bootstrap.bundle.min.js"></script>
-    <script src="bootsrap/js/bootstrap.min.js"></script>
+    <!-- <script src="bootsrap/js/bootstrap.min.js"></script> -->
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
@@ -324,6 +360,15 @@
             console.log("Success!", response);
           })
           .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+
+    <script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelectorAll(".keyboard-box"), {
+        max: 25,
+        speed: 400,
+        glare: true,
       });
     </script>
   </body>
