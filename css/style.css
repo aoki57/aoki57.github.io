@@ -39,13 +39,6 @@ section {
 }
 
 /* Navbar */
-.navbar-nav .nav-link.active {
-  color: var(--color-info);
-}
-
-.navbar.scrolled .navbar-nav .nav-link.active {
-  color: var(--color-info);
-}
 
 nav .container a {
   color: white;
@@ -96,6 +89,14 @@ nav .container a.btn-lin:hover {
   color: white;
   background-color: var(--color-lin);
   border: 1px solid var(--color-lin);
+}
+
+.navbar-nav .nav-link.active {
+  color: var(--color-info);
+}
+
+.navbar.scrolled .navbar-nav .nav-link.active {
+  color: var(--color-info);
 }
 
 /* Hero */
