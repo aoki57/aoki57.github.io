@@ -5,13 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Portofolio - Aoki Takeshi</title>
     <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/aos.css">
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Aoki Takeshi</a>
+        <a class="navbar-brand" href="#home">
+          <h4 class="m-0">Aoki Takeshi</h4>
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -27,10 +30,10 @@
               <a class="nav-link" href="#project">Project</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link" href="#certificate">Certificate</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#certificate">Certificate</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
             <li class="nav-item">
               <a class="nav-link btn btn-lin" href="https://www.linkedin.com/in/aokitakeshi" target="_blank">Linked<i class="fa-brands fa-linkedin ms-1"></i></a>
@@ -46,14 +49,14 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-12 col-md-6">
-            <h3 class="hero-title">--Hello--</h3>
-            <h1 class="hero-name">Saya Aoki Takeshi</h1>
-            <h2 class="hero-sub">Fullstack Web Developer</h2>
-            <p>Saya adalah mahasiswa semester 4 Politeknik Negeri Semarang (Polines) jurusan Teknik Elektro, Program Studi D3 Teknik Informatika. Memiliki minat yang tinggi dalam pengembangan web, terutama di bidang fullstack.</p>
-            <a class="btn btn-info" href="https://drive.google.com/drive/folders/1V5uZodmC7nNzI6Z-xH7rRxobonlJWSOe?usp=sharing" target="_blank">Curiculum Vitae<i class="fa-solid fa-arrow-right-long icon-cv"></i></a>
+            <h3 class="hero-title" data-aos="fade-up">--Hello, Saya--</h3>
+            <h1 class="hero-name" data-aos="fade-up" data-aos-delay="100"><span class="text-info">Aoki</span> Takeshi</h1>
+            <h2 class="hero-sub" data-aos="fade-up" data-aos-delay="200">Fullstack Web Developer</h2>
+            <p data-aos="fade-up" data-aos-delay="300">Saya adalah mahasiswa semester 4 Politeknik Negeri Semarang (Polines) jurusan Teknik Elektro, Program Studi D3 Teknik Informatika. Memiliki minat yang tinggi dalam pengembangan web, terutama di bidang fullstack.</p>
+            <a class="btn btn-outline-info" href="https://drive.google.com/drive/folders/1V5uZodmC7nNzI6Z-xH7rRxobonlJWSOe?usp=sharing" target="_blank" data-aos="fade-up" data-aos-delay="400">Curiculum Vitae<i class="fa-solid fa-arrow-right-long icon-cv"></i></a>
           </div>
           <div class="col-12 col-md-6 hero-right text-center">
-            <img src="assets/foto.jpg" alt="Aoki Takehi" class="rounded-circle" />
+            <img src="assets/foto.jpg" alt="Aoki Takehi" class="rounded-circle" data-aos="fade-up" data-aos-delay="500" />
           </div>
         </div>
       </div>
@@ -65,16 +68,16 @@
       <div class="container-fluid">
         <div class="container">
           <div class="row">
-            <div class="col section-title">
+            <div class="col section-title" data-aos="fade-up">
               <h2 class="section-text">Experience</h2>
               <div class="section-line"></div>
             </div>
           </div>
           <div class="row pengalaman-item">
-            <div class="col d-flex justify-content-center">
+            <div class="col d-flex justify-content-center" data-aos="fade-down-right" data-aos-delay="300">
               <img src="assets/pengalaman/pemira.png" alt="PEMIRA POLINES 2024" class="pengalaman-img" />
             </div>
-            <div class="col pengalaman-text">
+            <div class="col pengalaman-text" data-aos="fade-down-left" data-aos-delay="100">
               <h3 class="pengalaman-title">PEMIRA POLINES 2024</h3>
               <ul>
                 <li>Ikut serta dalam pembuatan website PEMIRA POLINES 2024</li>
@@ -85,22 +88,22 @@
             </div>
           </div>
           <div class="row pengalaman-item">
-            <div class="col pengalaman-text">
+            <div class="col pengalaman-text" data-aos="fade-down-right" data-aos-delay="100">
               <h3 class="pengalaman-title">Website UKM PCC POLINES 2023</h3>
               <ul>
                 <li>Berkontribusi dalam pembuatan website UKM PCC POLINES 2023</li>
                 <li>Menggunakan HTML, CSS, JavaScript, dan bootstrap</li>
               </ul>
             </div>
-            <div class="col d-flex justify-content-center">
+            <div class="col d-flex justify-content-center" data-aos="fade-down-left" data-aos-delay="300">
               <img src="assets/pengalaman/webisitePCC.png" alt="Website UKM PCC POLINES 2023" class="pengalaman-img" />
             </div>
           </div>
           <div class="row pengalaman-item">
-            <div class="col d-flex justify-content-center">
+            <div class="col d-flex justify-content-center" data-aos="fade-down-right" data-aos-delay="300">
               <img src="assets/pengalaman/semnas.png" alt="Semnas TECHCOMFEST 2024" class="pengalaman-img" />
             </div>
-            <div class="col pengalaman-text">
+            <div class="col pengalaman-text" data-aos="fade-down-left" data-aos-delay="100">
               <h3 class="pengalaman-title">Website Seminar Nasional TECHCOMFEST 2024</h3>
               <ul>
                 <li>Ikut serta dalam pembuatan Seminar Nasional TECHCOMFEST 2024</li>
@@ -110,7 +113,7 @@
             </div>
           </div>
           <div class="row pengalaman-item">
-            <div class="col pengalaman-text">
+            <div class="col pengalaman-text" data-aos="fade-down-right" data-aos-delay="100">
               <h3 class="pengalaman-title">SYK Software</h3>
               <ul>
                 <li>Menjadi pemateri dalam pelatihan SYK Software</li>
@@ -118,15 +121,15 @@
                 <li>Menggunakan HTML, CSS, dan bootstrap</li>
               </ul>
             </div>
-            <div class="col d-flex justify-content-center">
+            <div class="col d-flex justify-content-center" data-aos="fade-down-left" data-aos-delay="300">
               <img src="assets/pengalaman/syk.jpg" alt="Website UKM PCC POLINES 2023" class="pengalaman-img" />
             </div>
           </div>
           <div class="row pengalaman-item">
-            <div class="col d-flex justify-content-center">
+            <div class="col d-flex justify-content-center" data-aos="fade-down-right" data-aos-delay="300">
               <img src="assets/pengalaman/pccclass.png" alt="Website UKM PCC POLINES 2023" class="pengalaman-img" />
             </div>
-            <div class="col pengalaman-text">
+            <div class="col pengalaman-text" data-aos="fade-down-left" data-aos-delay="100">
               <h3 class="pengalaman-title">PCC Class Software 2024</h3>
               <ul>
                 <li>Menjadi pemateri dalam pelatihan PCC Class Software 2024</li>
@@ -145,13 +148,13 @@
       <div class="contaner-fluid border-top pb-5">
         <div class="container">
           <div class="row">
-            <div class="col section-title">
+            <div class="col section-title" data-aos="fade-down" data-aos-delay="150">
               <h2 class="section-text">Project</h2>
               <div class="section-line"></div>
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-4 col-sm-6 mb-3 project-item">
+            <div class="col-lg-4 col-sm-6 mb-3 project-item" data-aos="fade-down" data-aos-delay="150">
               <div class="border rounded card-shadow">
                 <img src="assets/project/sitama.png" alt="SITAMA" class="img-fluid" />
                 <div class="p-4">
@@ -166,7 +169,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-sm-6 mb-3 project-item">
+            <div class="col-lg-4 col-sm-6 mb-3 project-item" data-aos="fade-down" data-aos-delay="250">
               <div class="border rounded card-shadow">
                 <img src="assets/project/smartparking.png" alt="Smart Parking" class="img-fluid" />
                 <div class="project-text p-4">
@@ -180,7 +183,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-sm-6 mb-3 project-item">
+            <div class="col-lg-4 col-sm-6 mb-3 project-item" data-aos="fade-down" data-aos-delay="350">
               <div class="border rounded card-shadow">
                 <img src="assets/project/outpain.jpg" alt="OutPain" class="img-fluid" />
                 <div class="p-4">
@@ -196,7 +199,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-sm-6 mb-3 project-item">
+            <div class="col-lg-4 col-sm-6 mb-3 project-item" data-aos="fade-down" data-aos-delay="450">
               <div class="border rounded card-shadow">
                 <img src="assets/project/pccclass-project.png" alt="Portofolio PCC Class" class="img-fluid" />
                 <div class="p-4">
@@ -210,7 +213,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-sm-6 mb-3 project-item">
+            <div class="col-lg-4 col-sm-6 mb-3 project-item" data-aos="fade-down" data-aos-delay="550">
               <div class="border rounded card-shadow">
                 <img src="assets/project/syk-project.png" alt="Portofolio SYK Software" class="img-fluid" />
                 <div class="p-4">
@@ -235,13 +238,13 @@
       <div class="container-fluid border-top pb-5">
         <div class="container">
           <div class="row">
-            <div class="col section-title">
+            <div class="col section-title" data-aos="fade-up" data-aos-delay="100">
               <h2 class="section-text">Certificate</h2>
               <div class="section-line"></div>
             </div>
           </div>
           <div class="row d-flex justify-content-center align-items-center">
-            <div class="col-12 col-lg-6 mb-3 mb-lg-0 certif-item">
+            <div class="col-12 col-lg-6 mb-3 mb-lg-0 certif-item" data-aos="fade-up" data-aos-delay="100">
               <h3 class="text-center">Database Design</h3>
               <div class="certif-shadow">
                 <a href="https://drive.google.com/file/d/1l52K0N8ahH2T_t7hQZ_1oJJbWfItnSVO/view?usp=sharing" target="_blank">
@@ -249,7 +252,7 @@
                 </a>
               </div>
             </div>
-            <div class="col-12 col-lg-6 certif-item">
+            <div class="col-12 col-lg-6 certif-item" data-aos="fade-up" data-aos-delay="200">
               <h3 class="text-center">Database Programming with SQL</h3>
               <div class="certif-shadow">
                 <a href="https://drive.google.com/file/d/16dcgeCAgUzV4jUeLKhhzOPOYLW5q3Pfi/view?usp=sharing" target="_blank">
@@ -268,13 +271,13 @@
       <div class="container-fluid border-top pb-5">
         <div class="container">
           <div class="row">
-            <div class="col section-title">
+            <div class="col section-title" data-aos="fade-up" data-aos-delay="100">
               <h2 class="section-text">Contact</h2>
               <div class="section-line"></div>
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-4" data-aos="fade-right" data-aos-delay="100">
               <h3 class="fw-bold mb-3">Informasi Saya</h3>
               <ul class="informasi-saya">
                 <li class="py-3">Jl. Sendang Utara V No.15A, Gemah</li>
@@ -284,7 +287,7 @@
                 <li class="py-3 border-top">aokitakeshi57@gmail.com</li>
               </ul>
             </div>          
-            <div class="col-lg-8 mt-3 mt-lg-0">
+            <div class="col-lg-8 mt-3 mt-lg-0" data-aos="fade-left" data-aos-delay="200">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.50012629563432!2d110.45890348001527!3d-7.009043797657444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708cf12a8b9927%3A0x9e78010bdf9b0171!2sJl.%20Sendang%20Utara%20V%20No.15%2C%20Gemah%2C%20Kec.%20Pedurungan%2C%20Kota%20Semarang%2C%20Jawa%20Tengah%2050246%2C%20Indonesia!5e0!3m2!1sid!2skr!4v1717913969155!5m2!1sid!2skr"
                 width="100%"
@@ -350,8 +353,8 @@
               <a href="#home">Home</a>
               <a href="#pengalaman">Experience</a>
               <a href="#project">Project</a>
-              <a href="#contact">Contact</a>
               <a href="#certificate">Certificate</a>
+              <a href="#contact">Contact</a>
             </div>
           </div>
         </div>
@@ -363,6 +366,8 @@
     <!-- Akhir Footer -->
     <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/351a01efb6.js" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/aos-init.js"></script>
   </body>
 </html>
