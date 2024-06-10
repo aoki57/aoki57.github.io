@@ -3,6 +3,7 @@
 :root {
   --color-info: #0dcaf0;
   --color-lin: #086b9c;
+  --color-yt: #ff0808;
 }
 
 * {
@@ -197,8 +198,20 @@ nav .container a.btn-lin:hover {
   transition: 0.3s;
 }
 
+.btn-project-yt {
+  background-color: white;
+  border: 1px solid black;
+  width: 100%;
+  transition: 0.3s;
+}
+
 .btn-project:hover {
   background-color: black;
+  color: white;
+}
+
+.btn-project-yt:hover {
+  background-color: var(--color-yt);
   color: white;
 }
 
