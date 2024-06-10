@@ -62,6 +62,10 @@ nav .container a.btn-lin:hover {
   transition: 0.3s;
 }
 
+.navbar {
+  transition: 0.6s ease-in-out;
+}
+
 .navbar.scrolled {
   background-color: white;
   transition: background-color 0.6s ease-in-out;
